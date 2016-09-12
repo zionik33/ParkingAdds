@@ -5,7 +5,9 @@ Parking app project for class PSU0216 at UCN.
 - Docker
 
 ##Docker
-- docker build <dockerfile path>
+- docker build -t nodeapp /path/to/dockerfile/folder
+- docker images
+- docker run -p 49160:8020 -d nodeapp
 
 ##Build process
 - Docker will pull down a node.js build from docker hub.
