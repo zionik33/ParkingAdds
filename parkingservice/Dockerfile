@@ -10,4 +10,4 @@ RUN npm install
 COPY . /usr/src/app
 EXPOSE 8010
 
-CMD ["npm", "start"]
+CMD ["node", "app.js"]
