@@ -1,9 +1,15 @@
 const express = require('express');
 const request = require('request');
 const cacheResponseDirective = require('express-cache-response-directive');
+const morgan = require('morgan');
+const path = require('path');
+const fs = require('fs');
 const app = express();
 
+var accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), {flags: 'a'})
+
 app.use(cacheResponseDirective());
+app.use(morgan('combined', { stream: accessLogStream }));
 
 app.get('/', function(req, res){
 	res.cacheControl({maxAge: 300});
@@ -13,8 +19,6 @@ app.get('/', function(req, res){
 		}
 	});
 });
-
-
 
 app.listen(8010, function(){
 	console.log('Parking service listening on port: 8010');
