@@ -1,13 +1,9 @@
-FROM node:argon
-
-#Make dir
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
-
-COPY package.json /usr/src/app
-RUN npm install
-
-COPY . /usr/src/app
-EXPOSE 8030
-
-CMD ["node", "app.js"]
+FROM ubuntu:latest
+MAINTAINER Bo Stokholm "bostokholm@hotmail.com"
+RUN apt-get update -y
+RUN apt-get install -y python-pip python-dev build-essential
+COPY . /app
+WORKDIR /app
+RUN pip install -r requirements.txt
+ENTRYPOINT ["python"]
+CMD ["app/app.py"]
