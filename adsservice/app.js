@@ -13,10 +13,8 @@ app.use(morgan('combined', { stream: accessLogStream }));
 app.get('/', function(req, res){
 	res.cacheControl({maxAge: 300});
 	res.json({
-		title: 'Buy Viagra',
-		description: 'Blue pills for men',
-		catchPhrase: 'Buy 3 get 1 free',
-		price: '99,-'
+		image: 'http://www.bmw.dk/content/dam/bmw/marketDK/common/Katalog_billeder/BMW-2-serie-Active-Tourer-L.jpg/jcr:content/renditions/cq5dam.resized.img.585.low.time1453046042050.jpg',
+		link: 'http://www.bmw.dk/da/alle_modeller/2-series/activetourer/2014/start.html'
 	});
 });
 

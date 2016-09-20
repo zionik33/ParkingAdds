@@ -1,21 +1,23 @@
-from flask import Flask
+from flask import Flask, abort, jsonify
 app = Flask(__name__)
 
-import pika
+import pika, json
 
-@app.route('/')
-def send_email_to_queue():
+@app.route('/email/<email>', methods=["GET"])
+def send_email_to_queue(email):
+	print email
 	try:
 		connection = pika.BlockingConnection(pika.ConnectionParameters(
 				host='localhost'))
 		channel = connection.channel()
-		channel.queue_declare(queue='hello')
-		channel.basic_publish(exchange='', routing_key='hello', body='Whats up?')
+		channel.queue_declare(queue='email')
+		channel.basic_publish(exchange='', routing_key='email', body=email)
 		connection.close()
-		return 'Works'
+		print "queued message %s" % email
+		return jsonify({"status":"done"})
 	except:
 		print "Error on queue"
-		return 'Error'
+		abort(404)
 
 if __name__ == '__main__':
 	app.run()
