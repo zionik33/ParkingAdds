@@ -1,5 +1,6 @@
 const express = require('express');
 const cacheResponseDirective = require('express-cache-response-directive');
+const compression = require('compression');
 const morgan = require('morgan');
 const fs = require('fs');
 const path = require('path');
@@ -8,6 +9,8 @@ const app = express();
 var accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), {flags: 'a'})
 
 app.use(cacheResponseDirective());
+app.use(compression());
+app.use(require('express-status-monitor')());
 app.use(morgan('combined', { stream: accessLogStream }));
 
 app.get('/', function(req, res){
@@ -18,6 +21,6 @@ app.get('/', function(req, res){
 	});
 });
 
-app.listen(8020, function(){
-	console.log('Ads service listening on port: 8020');
+app.listen(11000, function(){
+	console.log('Ads service listening on port: 11000');
 });

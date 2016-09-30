@@ -7,8 +7,9 @@ import pika, json
 def send_email_to_queue(email):
 	print email
 	try:
+		credentials = pika.PlainCredentials('guest', 'guest')
 		connection = pika.BlockingConnection(pika.ConnectionParameters(
-				host='localhost'))
+				host='localhost', port=5672, credentials=credentials))
 		channel = connection.channel()
 		channel.queue_declare(queue='email')
 		channel.basic_publish(exchange='', routing_key='email', body=email)

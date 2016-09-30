@@ -4,10 +4,12 @@ FROM node:argon
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
+RUN npm install -g nodemon
+
 COPY package.json /usr/src/app
 RUN npm install
 
 COPY . /usr/src/app
-EXPOSE 8020
+EXPOSE 11000
 
-CMD ["node", "app.js"]
+CMD ["nodemon", "app.js"]

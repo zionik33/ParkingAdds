@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.6.2",
     "express": "^4.14.0",
     "express-cache-response-directive": "^1.0.0",
+    "express-status-monitor": "^0.1.4",
     "morgan": "^1.7.0",
     "node-cache": "^3.2.1",
     "request": "^2.74.0"

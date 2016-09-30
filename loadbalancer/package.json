@@ -1,19 +1,17 @@
 {
-  "name": "adsservice",
+  "name": "loadbalancer",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Bo Stokholm",
   "license": "ISC",
   "dependencies": {
-    "compression": "^1.6.2",
+    "dotenv": "^2.0.0",
     "express": "^4.14.0",
-    "express-cache-response-directive": "^1.0.0",
-    "express-status-monitor": "^0.1.4",
-    "morgan": "^1.7.0",
-    "node-cache": "^4.1.0"
+    "express-http-proxy": "^0.10.0",
+    "express-status-monitor": "^0.1.4"
   }
 }
