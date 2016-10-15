@@ -1,1 +1,5 @@
 monitorservice
+.DS_STORE
+emailservice/src/main/resources
+emailservice/.idea
+emailservice/target

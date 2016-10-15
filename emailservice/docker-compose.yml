@@ -1,0 +1,12 @@
+tomcat:
+  build: tomcat/.
+  ports:
+    - "10080:8080"
+  hostname:
+    tomcat
+
+
+maven:
+  build: service/.
+  hostname:
+    maven

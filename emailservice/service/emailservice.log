@@ -1,0 +1,153 @@
+2016-10-13 17:58:05 ERROR EmailResource:70 - EmailService class doing sendMail gave: 
+java.net.ConnectException: Connection refused
+2016-10-13 18:13:24 ERROR EmailResource:70 - EmailService class doing sendMail gave: 
+java.net.ConnectException: Connection refused
+2016-10-13 18:17:15 ERROR EmailResource:73 - EmailService class doing sendMail gave: 
+java.net.ConnectException: Connection refused
+2016-10-13 18:19:09 ERROR EmailResource:73 - EmailService class doing sendMail gave: 
+java.net.ConnectException: Connection refused
+2016-10-13 18:22:29 ERROR EmailResource:73 - EmailService class doing sendMail gave: 
+java.net.ConnectException: Connection refused
+On host: 192.168.99.100
+2016-10-13 18:28:53 ERROR EmailResource:74 - EmailService class doing sendMail gave: 
+java.net.ConnectException: Connection refused
+On host: 192.168.99.100
+2016-10-13 18:34:44 ERROR EmailResource:74 - EmailService class doing sendMail gave: 
+java.net.ConnectException: Connection refused
+On host: 192.168.99.100
+2016-10-13 18:34:44 ERROR EmailResource:74 - EmailService class doing sendMail gave: 
+java.net.ConnectException: Connection refused
+On host: 192.168.99.100
+2016-10-13 18:34:45 ERROR EmailResource:74 - EmailService class doing sendMail gave: 
+java.net.ConnectException: Connection refused
+On host: 192.168.99.100
+2016-10-13 18:34:45 ERROR EmailResource:74 - EmailService class doing sendMail gave: 
+java.net.ConnectException: Connection refused
+On host: 192.168.99.100
+2016-10-14 07:47:18 ERROR EmailResource:74 - EmailService class doing sendMail gave: 
+java.net.ConnectException: Connection refused
+On host: app.stokholmsolutions.dk
+2016-10-14 08:35:21 ERROR UserinfoQueue:33 - UserinfoQueue class doing sendMessage gave: 
+java.net.ConnectException: Connection refused
+On host: app.stokholmsolutions.dk
+2016-10-14 08:37:47 ERROR UserinfoQueue:33 - UserinfoQueue class doing sendMessage gave: 
+java.net.ConnectException: Connection refused
+On host: app.stokholmsolutions.dk
+2016-10-14 08:38:08 ERROR UserinfoQueue:33 - UserinfoQueue class doing sendMessage gave: 
+java.net.ConnectException: Connection refused
+On host: app.stokholmsolutions.dk
+2016-10-14 08:40:07 ERROR UserinfoQueue:35 - UserinfoQueue class doing sendMessage gave: 
+java.net.ConnectException: Connection refused
+On host: app.stokholmsolutions.dk
+2016-10-14 08:41:22 ERROR UserinfoQueue:35 - UserinfoQueue class doing sendMessage gave: 
+java.net.ConnectException: Connection refused
+On host: app.stokholmsolutions.dk
+2016-10-14 08:41:46 ERROR UserinfoQueue:35 - UserinfoQueue class doing sendMessage gave: 
+java.net.ConnectException: Connection refused
+On host: app.stokholmsolutions.dk
+2016-10-14 11:36:29 ERROR UserinfoQueue:35 - UserinfoQueue class doing sendMessage gave: 
+java.net.ConnectException: Connection refused
+On host: app.stokholmsolutions.dk
+2016-10-14 11:36:55 ERROR UserinfoQueue:35 - UserinfoQueue class doing sendMessage gave: 
+java.net.ConnectException: Connection refused
+On host: app.stokholmsolutions.dk
+2016-10-14 11:37:01 ERROR UserinfoQueue:35 - UserinfoQueue class doing sendMessage gave: 
+java.net.ConnectException: Connection refused
+On host: app.stokholmsolutions.dk
+2016-10-14 11:38:22 ERROR UserinfoQueue:35 - UserinfoQueue class doing sendMessage gave: 
+com.rabbitmq.client.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 11:50:18 ERROR UserinfoQueue:35 - UserinfoQueue class doing sendMessage gave: 
+com.rabbitmq.client.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 11:51:50 ERROR UserinfoQueue:37 - UserinfoQueue class doing sendMessage gave: 
+java.io.IOException
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 11:52:58 ERROR UserinfoQueue:37 - UserinfoQueue class doing sendMessage gave: 
+java.io.IOException
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 11:53:29 ERROR UserinfoQueue:37 - UserinfoQueue class doing sendMessage gave: 
+java.io.IOException
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 11:54:52 ERROR UserinfoQueue:37 - UserinfoQueue class doing sendMessage gave: 
+java.io.IOException
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 11:59:44 ERROR UserinfoQueue:37 - UserinfoQueue class doing sendMessage gave: 
+java.net.SocketException: Broken pipe
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 12:00:03 ERROR UserinfoQueue:37 - UserinfoQueue class doing sendMessage gave: 
+java.io.IOException
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 12:04:36 ERROR UserinfoQueue:37 - UserinfoQueue class doing sendMessage gave: 
+java.io.IOException
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 12:05:52 ERROR UserinfoQueue:38 - UserinfoQueue class doing sendMessage gave: 
+java.net.ConnectException: Connection refused
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 12:06:00 ERROR UserinfoQueue:38 - UserinfoQueue class doing sendMessage gave: 
+java.net.ConnectException: Connection refused
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 12:06:13 ERROR UserinfoQueue:37 - UserinfoQueue class doing sendMessage gave: 
+java.io.IOException
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 12:07:36 ERROR UserinfoQueue:37 - UserinfoQueue class doing sendMessage gave: 
+java.io.IOException
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 12:11:48 ERROR UserinfoQueue:38 - UserinfoQueue class doing sendMessage gave: 
+java.io.IOException
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 12:13:59 ERROR UserinfoQueue:38 - UserinfoQueue class doing sendMessage gave: 
+java.io.IOException
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-14 12:14:14 INFO  UserinfoQueue:32 - [X] Sent 'test' to queue: userinfo
+2016-10-14 12:14:28 INFO  UserinfoQueue:32 - [X] Sent 'test' to queue: userinfo
+2016-10-14 12:16:32 INFO  UserinfoQueue:32 - [X] Sent 'test' to queue: userinfo
+2016-10-14 12:16:38 INFO  UserinfoQueue:32 - [X] Sent 'test' to queue: userinfo
+2016-10-14 12:16:46 INFO  UserinfoQueue:32 - [X] Sent 'test' to queue: userinfo
+2016-10-14 12:26:19 INFO  UserinfoQueue:32 - [X] Sent 'test' to queue: userinfo
+2016-10-14 12:26:43 INFO  UserinfoQueue:32 - [X] Sent 'test@test.dk,123123,123123' to queue: userinfo
+2016-10-15 09:04:43 DEBUG logging:29 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-10-15 09:04:43 INFO  Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2016-10-15 09:04:43 DEBUG DefaultTraversableResolver:112 - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2016-10-15 09:04:43 DEBUG DefaultTraversableResolver:123 - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2016-10-15 09:04:43 DEBUG ValidationXmlParser:91 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2016-10-15 09:04:43 DEBUG ValidationXmlParser:98 - No META-INF/validation.xml found. Using annotation based configuration only.
+2016-10-15 09:04:57 INFO  UserinfoQueue:32 - [X] Sent ',,' to queue: userinfo
+2016-10-15 09:09:24 DEBUG logging:29 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-10-15 09:09:24 INFO  Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2016-10-15 09:09:24 DEBUG DefaultTraversableResolver:112 - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2016-10-15 09:09:24 DEBUG DefaultTraversableResolver:123 - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2016-10-15 09:09:24 DEBUG ValidationXmlParser:91 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2016-10-15 09:09:24 DEBUG ValidationXmlParser:98 - No META-INF/validation.xml found. Using annotation based configuration only.
+2016-10-15 09:09:31 INFO  UserinfoQueue:32 - [X] Sent ',,' to queue: userinfo
+2016-10-15 09:14:13 DEBUG logging:29 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-10-15 09:14:13 INFO  Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2016-10-15 09:14:13 DEBUG DefaultTraversableResolver:112 - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2016-10-15 09:14:13 DEBUG DefaultTraversableResolver:123 - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2016-10-15 09:14:13 DEBUG ValidationXmlParser:91 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2016-10-15 09:14:13 DEBUG ValidationXmlParser:98 - No META-INF/validation.xml found. Using annotation based configuration only.
+2016-10-15 09:14:19 INFO  UserinfoQueue:32 - [X] Sent ',,' to queue: userinfo
+2016-10-15 09:14:23 INFO  UserinfoQueue:32 - [X] Sent ',,' to queue: userinfo
+2016-10-15 09:14:24 INFO  UserinfoQueue:32 - [X] Sent ',,' to queue: userinfo
+2016-10-15 09:14:25 INFO  UserinfoQueue:32 - [X] Sent ',,' to queue: userinfo
+2016-10-15 09:14:26 INFO  UserinfoQueue:32 - [X] Sent ',,' to queue: userinfo
+2016-10-15 09:14:27 INFO  UserinfoQueue:32 - [X] Sent ',,' to queue: userinfo
+2016-10-15 09:31:57 DEBUG logging:29 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-10-15 09:31:57 INFO  Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2016-10-15 09:31:57 DEBUG DefaultTraversableResolver:112 - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2016-10-15 09:31:57 DEBUG DefaultTraversableResolver:123 - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2016-10-15 09:31:57 DEBUG ValidationXmlParser:91 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2016-10-15 09:31:57 DEBUG ValidationXmlParser:98 - No META-INF/validation.xml found. Using annotation based configuration only.
+2016-10-15 09:32:05 ERROR EmailResource:73 - EmailService class doing sendMail gave: 
+java.lang.Exception: Message not send from EmailResource class. Method sendMail.
+On host: stokholm-database.northeurope.cloudapp.azure.com
+2016-10-15 10:17:11 DEBUG logging:29 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-10-15 10:17:11 INFO  Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2016-10-15 10:17:11 DEBUG DefaultTraversableResolver:112 - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2016-10-15 10:17:11 DEBUG DefaultTraversableResolver:123 - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2016-10-15 10:17:11 DEBUG ValidationXmlParser:91 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2016-10-15 10:17:11 DEBUG ValidationXmlParser:98 - No META-INF/validation.xml found. Using annotation based configuration only.
+2016-10-15 10:17:16 DEBUG PlatformResourceBundleLocator:73 - ValidationMessages not found.
+2016-10-15 10:17:16 DEBUG PlatformResourceBundleLocator:70 - org.hibernate.validator.ValidationMessages found.
+2016-10-15 10:17:45 INFO  UserinfoQueue:34 - [X] Sent 'test123@test.dk,123453,123123' to queue: userinfo
+2016-10-15 10:17:50 INFO  UserinfoQueue:34 - [X] Sent 'test123@test.dk,123453,123123' to queue: userinfo
